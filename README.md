@@ -1,90 +1,98 @@
-# 📝 MyTodolist App — Gerenciador de Tarefas em FreeSimpleGUI
+# 📝 MyTodolist App — Gerenciador de Tarefas Desktop
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![Interface](https://img.shields.io/badge/UI-FreeSimpleGUI-9cf)
 ![Status](https://img.shields.io/badge/status-Em_desenvolvimento-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-> **MyTodolist App** é uma aplicação simples e funcional desenvolvida em **Python** com **FreeSimpleGUI**, projetada para desktop.  
-> O aplicativo permite **adicionar, editar e excluir tarefas**, salvando os dados automaticamente em um arquivo externo.
+> Aplicação desktop para gerenciamento de tarefas desenvolvida em **Python** com **FreeSimpleGUI**.  
+> O aplicativo permite adicionar, editar e remover tarefas com salvamento automático em arquivo externo.
+
+---
+
+## 📷 Preview
+
+<p align="center">
+  <img src="preview.png" width="700">
+</p>
 
 ---
 
 ## 🧠 Sobre o projeto
 
-O **MyTodolist App** foi criado para oferecer uma experiência prática e direta na gestão de tarefas.  
-Ele permite ao usuário:
-- ➕ **Adicionar** novas tarefas através de um campo de texto.  
-- ✏️ **Editar** uma tarefa já existente.  
-- 🗑️ **Excluir** tarefas concluídas ou desnecessárias.  
+O **MyTodolist App** foi criado para oferecer uma experiência prática e objetiva na organização de tarefas do dia a dia.
 
-Todas as alterações são salvas automaticamente em um arquivo de texto (`todos.txt`), garantindo que nenhuma informação seja perdida entre execuções.
+Com ele, o usuário pode:
+
+- ➕ **Adicionar** novas tarefas  
+- ✏️ **Editar** tarefas existentes  
+- 🗑️ **Excluir** tarefas concluídas ou desnecessárias  
+
+Todas as alterações são salvas automaticamente no arquivo `todos.txt`, garantindo persistência dos dados entre execuções.
 
 ---
 
 ## 🧩 Estrutura do projeto
 
-```
+```text
 mytodolist-app/
-├── dist/              # Pasta com o executável do app (.exe)
-├── gui.py             # Interface gráfica (FreeSimpleGUI)
-├── functions.py       # Manipulação de dados (ler/gravar tarefas)
-├── cli.py             # Backend funcional da aplicação
-├── exe.py             # Personalização do executável
+├── gui.py             # Interface (FreeSimpleGUI)
+├── gui_upgrade.py     # Interface (FSG) (com melhoria no layout)
+├── functions.py       # Manipulação de dados e persistência
+├── cli.py             # Lógica backend da aplicação
+├── exe.py             # Configuração do executável
 ├── add.png            # Ícone do botão "Adicionar"
 ├── edit.png           # Ícone do botão "Editar"
 ├── complete.png       # Ícone do botão "Excluir"
-├── todos.txt          # Arquivo de texto com as tarefas salvas
+├── todos.txt          # Arquivo com as tarefas salvas
+├── preview.png        # Imagem da aplicação aberta
 ├── requirements.txt   # Dependências Python
-└── readme.md          # Documentação do projeto
+├── LICENSE            # Licença MIT
+└── README.md          # Documentação do projeto
 ```
 
 ---
 
-## ⚙️ Instalação e execução (modo desenvolvedor)
+## ⚙️ Instalação e execução
 
-1. **Clone o repositório:**
+1. **Clone o repositório**
    ```bash
-   git clone https://github.com/danilo86Python/mytodolist-app.git
+   git clone https://github.com/danilo-santos-python/mytodolist-app.git
    cd mytodolist-app
    ```
 
-2. **Crie o ambiente virtual:**
+2. **Crie um ambiente virtual**
    ```bash
    python -m venv venv
-   venv\Scripts\activate     # (Windows)
-   source venv/bin/activate  # (Linux/Mac)
    ```
 
-3. **Instale as dependências:**
+3. **Ative o ambiente virtual**
+
+   **Windows**
+   ```bash
+   venv\Scripts\activate
+   ```
+
+   **Linux/macOS**
+   ```bash
+   source venv/bin/activate
+   ```
+
+4. **Instale as dependências**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Execute o aplicativo:**
+5. **Execute o aplicativo**
    ```bash
    python gui.py
    ```
 
 ---
 
-## 💾 Executável pronto (modo usuário final)
-
-Na pasta **`dist`**, há um arquivo **`.exe`** que permite executar o app **sem precisar do Python instalado**.
-
-Para usar:
-1. Baixe a pasta `dist/` e o arquivo `todos.txt`.  
-2. Coloque-os no mesmo diretório.  
-3. Execute o arquivo `.exe`.  
-
----
-
 ## 🛠️ Tecnologias utilizadas
 
-- **Python 3.13+**
-- **FreeSimpleGUI**
-- **PyInstaller**
-- **Manipulação de arquivos (.txt)**
+- **Manipulação de dados e persistência**
 
 ---
 
@@ -97,17 +105,18 @@ Para usar:
 
 ## 📜 Licença
 
-Distribuído sob a **Licença MIT**.  
-Este projeto é de código aberto e pode ser utilizado livremente para fins educacionais e de aprendizado.
+Distribuído sob a **Licença MIT**.
+
+Este projeto é open source e pode ser utilizado livremente para fins educacionais e de aprendizado.
 
 ---
 
 ## 👨‍💻 Autor
 
 **Danilo Santos**  
-🐙 [GitHub](https://github.com/danilo-santos-python)  
-🌐 [Repositório do Projeto](https://github.com/danilo-santos-python/mytodolist-app.git)
+🐙 GitHub: https://github.com/danilo-santos-python  
+🌐 Repositório: https://github.com/danilo-santos-python/mytodolist-app
 
 ---
 
-⭐ Se este projeto foi útil para você, deixe uma estrela no repositório!
+⭐ Se este projeto foi útil para você, deixe uma estrela no repositório.
