@@ -1,4 +1,4 @@
-# 📝 MyTodolist App — Gerenciador de Tarefas Desktop
+# 📝 Todolist App — Gerenciador de Tarefas Desktop
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![Interface](https://img.shields.io/badge/UI-FreeSimpleGUI-9cf)
@@ -20,7 +20,7 @@
 
 ## 🧠 Sobre o projeto
 
-O **MyTodolist App** foi criado para oferecer uma experiência prática e objetiva na organização de tarefas do dia a dia.
+O **Todolist App** foi criado para oferecer uma experiência prática e objetiva na organização de tarefas do dia a dia.
 
 Com ele, o usuário pode:
 
@@ -57,8 +57,8 @@ mytodolist-app/
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/danilo-santos-python/mytodolist-app.git
-   cd mytodolist-app
+   git clone https://github.com/danilo-santos-python/todolist-app.git
+   cd todolist-app
    ```
 
 2. **Crie um ambiente virtual**
@@ -85,7 +85,7 @@ mytodolist-app/
 
 5. **Execute o aplicativo**
    ```bash
-   python gui.py
+   python gui_upgrade.py
    ```
 
 ---
@@ -115,7 +115,7 @@ Este projeto é open source e pode ser utilizado livremente para fins educaciona
 
 **Danilo Santos**  
 🐙 GitHub: https://github.com/danilo-santos-python  
-🌐 Repositório: https://github.com/danilo-santos-python/mytodolist-app
+🌐 Repositório: https://github.com/danilo-santos-python/todolist-app
 
 ---
 
