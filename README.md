@@ -35,7 +35,7 @@ Todas as alterações são salvas automaticamente no arquivo `todos.txt`, garant
 ## 🧩 Estrutura do projeto
 
 ```text
-mytodolist-app/
+todolist-app/
 ├── gui.py             # Interface (FreeSimpleGUI)
 ├── gui_upgrade.py     # Interface (FSG) (com melhoria no layout)
 ├── functions.py       # Manipulação de dados e persistência
