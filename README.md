@@ -1,8 +1,8 @@
 # 📝 Todolist App — Gerenciador de Tarefas Desktop
 
-![Python](https://img.shields.io/badge/Python-3.13-blue)
-![Interface](https://img.shields.io/badge/UI-FreeSimpleGUI-9cf)
-![Status](https://img.shields.io/badge/status-Em_desenvolvimento-yellow)
+![Python](https://img.shields.io/badge/python-3.13-blue)
+![UI](https://img.shields.io/badge/UI-FreeSimpleGUI-9cf)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 > Aplicação desktop para gerenciamento de tarefas desenvolvida em **Python** com **FreeSimpleGUI**.  
